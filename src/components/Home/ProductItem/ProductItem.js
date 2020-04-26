@@ -1,0 +1,214 @@
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import Distant from '../Distant/Distant';
+import './style.css'
+function ProductItem(props) {
+    return (
+        <Container>
+            <Distant></Distant>
+            <div className="content-text">
+                <div>
+                    <h6>zekang is the best choice</h6>
+                </div>
+                <div>
+                    <span>Bộ sản phẩm chăm sóc toàn diện cho da của bạn</span>
+                </div>
+            </div>
+            <div className="distants">
+                <Row>
+                    <Col lg={3}>
+                        <div className="image-box is-trending has-discount">
+                            <div className="thumb">
+                                <img src="../img/product_1.png" alt="pro_1" className="img-fluid " />
+                            </div>
+                            <div className="meta-inner">
+                                <div className="nameProduct"><h6>Bacteriostatic Shower Gel</h6></div>
+                                <div className="formatProduct">
+                                    <div>
+                                        <span className="price">150.000 đ</span>
+                                    </div>
+                                    <div>
+                                        <span className="start">150.000 đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={3}>
+                        <div className="image-box is-trending has-discount">
+                            <div className="thumb">
+                                <img src="../img/product_2.png" alt="pro_1" className="img-fluid " />
+                            </div>
+                            <div className="meta-inner">
+                                <div className="nameProduct"><h6>Allantoin VE Ointment</h6></div>
+                                <div className="formatProduct">
+                                    <div>
+                                        <span className="price">150.000 đ</span>
+                                    </div>
+                                    <div>
+                                        <span className="start">150.000 đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={3}>
+                        <div className="image-box is-trending has-discount">
+                            <div className="thumb">
+                                <img src="../img/product_3.png" alt="pro_1" className="img-fluid " />
+                            </div>
+                            <div className="meta-inner">
+                                <div className="nameProduct"><h6>Black Bean Distillate Oil</h6></div>
+                                <div className="formatProduct">
+                                    <div>
+                                        <span className="price">150.000 đ</span>
+                                    </div>
+                                    <div>
+                                        <span className="start">150.000 đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={3}>
+                        <div className="image-box is-trending has-discount">
+                            <div className="thumb">
+                                <div className="thumb-img">
+                                    <img src="../img/product_4.png" alt="pro_1" className="img-fluid " />
+                                </div>
+                            </div>
+                            <div className="meta-inner">
+                                <div className="nameProduct"><h6>Bacteriostatic Shower Gel</h6></div>
+                                <div className="formatProduct">
+                                    <div>
+                                        <span className="price">150.000 đ</span>
+                                    </div>
+                                    <div>
+                                        <span className="start">150.000 đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
+            <Distant></Distant>
+            <div className="content-text">
+                <div>
+                    <h6>ĐIỂM KHÁC BIỆT CỦA ZEKANG</h6>
+                </div>
+                <div>
+                    <span>So với những sản phẩm khác trên thị trường</span>
+                </div>
+            </div>
+            <div className="distants">
+                <Row>
+                    <Col lg={3} xl={3}>
+                        <div className="image-box-wrap">
+                            <div className="thumb-wrap">
+                                <div className="thumb-img-wrap">
+                                    <img src="../img/img_1.png" alt="pro_1" className="img-fluid" />
+                                </div>
+                                <div className="distant_wrap">
+                                    <span className="desc_Name">Thích hợp với<br />mọi loại da</span>
+                                </div>
+                            </div>
+                            <div className="meta-inner-wrap distant_wrap">
+                                <span className="desc">Zekang là sản phẩm phù hợp với mọi loại da được nghiên cứu và phát triển sản phẩm bởi các Tiến sĩ và Bác sĩ đầu ngành về Da liễu. </span>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={3} xl={3}>
+                        <div className="image-box-wrap">
+                            <div className="thumb-wrap">
+                                <div className="thumb-img-wrap">
+                                    <img src="../img/clover.png" alt="pro_1" className="img-fluid" />
+                                </div>
+                                <div className="distant_wrap">
+                                    <span className="desc_Name">100% từ nguyên liệu<br />thiên nhiên</span>
+                                </div>
+                            </div>
+                            <div className="meta-inner-wrap distant_wrap">
+                                <span className="desc">Zekang là sản phẩm được điều chế từ nguồn nguyên liệu sạch, hoàn toàn có nguồn gốc từ thảo mộc thiên nhiên. </span>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={3} xl={3}>
+                        <div className="image-box-wrap">
+                            <div className="thumb-wrap">
+                                <div className="thumb-img-wrap">
+                                    <img src="../img/teams.png" alt="pro_1" className="img-fluid" />
+                                </div>
+                                <div className="distant_wrap">
+                                    <span className="desc_Name">Sứ mệnh là sức khỏe<br></br>con người</span>
+                                </div>
+                            </div>
+                            <div className="meta-inner-wrap distant_wrap">
+                                <span className="desc">Các sản phẩm của Zekang được giám sát, theo dõi chất lượng nghiêm ngặt, khắt khe nhất tại các tổ chức khoa học trong và ngoài nước. </span>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={3} xl={3}>
+                        <div className="image-box-wrap">
+                            <div className="thumb-wrap">
+                                <div className="thumb-img-wrap">
+                                    <img src="../img/box.png" alt="pro_1" className="img-fluid" />
+                                </div>
+                                <div className="distant_wrap">
+                                    <span className="desc_Name">Sản phẩm được<br/>yêu thích nhất</span>
+                                </div>
+                            </div>
+                            <div className="meta-inner-wrap distant_wrap">
+                                <span className="desc">Zekang đã đạt doanh số hàng năm hơn 2 triệu sản phẩm và là sản phẩm được yêu thích nhất tại Singapore, Trung Quốc …</span>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
+            <Distant></Distant>
+            <div className="content-text">
+                <div>
+                    <h6>PHẢN HỒI CỦA KHÁCH HÀNG</h6>
+                </div>
+                <div>
+                    <span>Khi sử dụng sản phẩm của ZeKang</span>
+                </div>
+            </div>
+            <div className="distants">
+                <Row className="">
+                    <Col lg={3} xl={3}>
+                        <div className="image-box-wrap_">
+                                <div className="thumb-img-wrap_">
+                                    <img src="../img/img_2.png" alt="pro_1" className="img-fluid" />
+                                </div>
+                        </div>
+                    </Col>
+                    <Col lg={3} xl={3}>
+                        <div className="image-box-wrap_">
+                                <div className="thumb-img-wrap_">
+                                    <img src="../img/img_2.png" alt="pro_1" className="img-fluid" />
+                                </div>
+                        </div>
+                    </Col>
+                    <Col lg={3} xl={3}>
+                        <div className="image-box-wrap_">
+                                <div className="thumb-img-wrap_">
+                                    <img src="../img/img_2.png" alt="pro_1" className="img-fluid" />
+                                </div>
+                        </div>
+                    </Col>
+                    <Col lg={3} xl={3}>
+                        <div className="image-box-wrap_">
+                                <div className="thumb-img-wrap_">
+                                    <img src="../img/img_2.png" alt="pro_1" className="img-fluid" />
+                                </div>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
+            <Distant></Distant>
+        </Container>
+    );
+}
+
+export default ProductItem;

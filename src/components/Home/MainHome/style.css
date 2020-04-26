@@ -1,0 +1,108 @@
+.back-front-page .swiper-container{
+    height: calc(100vh - 80px);
+}
+.swiper-button-prev,.swiper-button-next {
+    font-weight: bolder;
+    color: #fff;
+    outline: none;
+}
+.gallery-item{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.img-content{
+    background-image: url('../../Image/img/Bin.jpg');
+    height: 100%;
+    width: 80%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+}
+.text-box {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skew(-10deg,0) translateX(-30%);
+    background: #91af77;
+}
+.text-wrap-box {
+    background-image: url('../../Image/img/Last.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    width: 30%;
+    z-index: 9;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-wrap-context{
+
+}
+.text-wrap-box h4.titleWow{
+    color: #fff;
+    font-weight: 700;
+}
+.text-wrap-box  p{
+    color: #fff;
+    font-size: .9em;
+}
+.btn {
+    background: none;
+    border: 2px solid #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    width: 50%;
+    z-index: 9;
+    font-size: .8em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn:hover {
+    color: white;
+}
+.btn::before {
+    content: "";
+    position: absolute;
+    background: #7fa035;
+    height: 0;
+    z-index: -1;
+    transition: 0.5s;
+    width: 100%;
+    left: 0;
+    border: none; 
+}
+.btn_::before {
+    bottom: 0; 
+}
+.btn_:hover::before {
+    height: 100%;
+
+}
+@media (min-width: 1900px) { 
+    .text-wrap-box h4.titleWow {
+        color: #fff;
+        font-weight: 700;
+        font-size: 2.3em;
+    }
+    .text-wrap-box p {
+        color: #fff;
+        font-size: 1.2em;
+    }
+ }
